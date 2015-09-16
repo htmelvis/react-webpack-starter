@@ -1,0 +1,37 @@
+{
+  "name": "react-webpack-starter",
+  "version": "0.0.1",
+  "description": "A Simple Starter Kit for Webpack and ReactJS for my own enjoyment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --colors --progress",
+    "build": "write the build configuration here"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htmelvis/react-webpack-starter.git"
+  },
+  "author": "htmelvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htmelvis/react-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/htmelvis/react-webpack-starter#readme",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.23",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.17.0",
+    "node-sass": "^3.3.2",
+    "raw-loader": "^0.5.1",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^2.0.1",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.11.0"
+  }
+}
