@@ -15,9 +15,21 @@ module.exports = {
   },
   module: {
     loaders: [
-      //Favor babel-loader over the traditional jsx-loader
-      {test: /\.(jsx|js)?$/, exclude:/node_modules/,loaders: ['react-hot','babel'], include: path.join(__dirname, 'public')},
-      {test: /\.(sass|scss)?$/, loaders: ['style','css','sass']}
+      //Favor babel-loader
+      {
+        test: /\.js?$/, exclude:/node_modules/,
+        loaders: ['react-hot','babel-loader'],
+        include: path.join(__dirname, 'public'),
+        query: {
+          cacheDirectory: true,
+          optional: ['runtime'],
+          stage: 0
+        }
+      },
+      {
+        test: /\.(sass|scss)?$/,
+        loaders: ['style','css','sass']
+      }
     ]
   },
   plugins: [
