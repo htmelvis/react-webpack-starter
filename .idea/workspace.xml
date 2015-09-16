@@ -45,7 +45,7 @@
         <entry file="file://$USER_HOME$/Sites/react-webpack-starter/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -73,11 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Sites/react-webpack-starter/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10743801">
+            <state vertical-scroll-proportion="0.0">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Sites/react-webpack-starter/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.2160356">
+              <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -119,11 +129,12 @@
         <option value="$USER_HOME$/Sites/react-webpack-starter/package.json" />
         <option value="$USER_HOME$/Sites/react-webpack-starter/index.html" />
         <option value="$USER_HOME$/Sites/react-webpack-starter/index.js" />
-        <option value="$USER_HOME$/Sites/react-webpack-starter/webpack.config.js" />
         <option value="$USER_HOME$/Sites/react-webpack-starter/style/modules/_global.scss" />
         <option value="$USER_HOME$/Sites/react-webpack-starter/public/index.html" />
         <option value="$USER_HOME$/Sites/react-webpack-starter/style/main.scss" />
         <option value="$USER_HOME$/Sites/react-webpack-starter/.gitignore" />
+        <option value="$USER_HOME$/Sites/react-webpack-starter/webpack.config.js" />
+        <option value="$USER_HOME$/Sites/react-webpack-starter/README.md" />
       </list>
     </option>
   </component>
@@ -258,6 +269,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="66a5d480-be13-4959-9453-de8e0dfdfa8c" name="Default" comment="" />
@@ -314,24 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Sites/react-webpack-starter/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Sites/react-webpack-starter/public/bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="93.93939">
-          <caret line="20739" column="6" selection-start-line="20739" selection-start-column="6" selection-end-line="20739" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Sites/react-webpack-starter/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.457143">
@@ -356,10 +352,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Sites/react-webpack-starter/public/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="93.93939">
+          <caret line="20739" column="6" selection-start-line="20739" selection-start-column="6" selection-end-line="20739" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Sites/react-webpack-starter/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Sites/react-webpack-starter/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10743801">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Sites/react-webpack-starter/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2160356">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
           <folding />
         </state>
       </provider>

@@ -15,9 +15,8 @@ module.exports = {
   },
   module: {
     loaders: [
-      //think of babel vs jsx-loader
-      {test: /\.js?$/, exclude:/node_modules/,loaders: ['react-hot','babel-loader'], include: path.join(__dirname, 'public')},
-      {test: /\.jsx?$/, exclude: /node_modules/, loaders: ['react-hot','babel']},
+      //Favor babel-loader over the traditional jsx-loader
+      {test: /\.(jsx|js)?$/, exclude:/node_modules/,loaders: ['react-hot','babel'], include: path.join(__dirname, 'public')},
       {test: /\.(sass|scss)?$/, loaders: ['style','css','sass']}
     ]
   },
