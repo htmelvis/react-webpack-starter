@@ -18,13 +18,7 @@ module.exports = {
       //Favor babel-loader
       {
         test: /\.js?$/, exclude:/node_modules/,
-        loaders: ['react-hot','babel-loader'],
-        include: path.join(__dirname, 'public'),
-        query: {
-          cacheDirectory: true,
-          optional: ['runtime'],
-          stage: 0
-        }
+        loaders: ['react-hot','babel-loader']
       },
       {
         test: /\.(sass|scss)?$/,

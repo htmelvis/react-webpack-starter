@@ -4,14 +4,17 @@
 h2 {
   text-align: center;
 }
-pre{
-  width: 80%;
-  max-width: 600px;
-  background: white;
+.explain{
+  padding: 34px 0;
+  font-size: 1.2em;
+
+}
+.logos{
+  width: 425px;
   margin: 0 auto;
-  font-size: 1.8em;
-  padding: 2em;
-  border-radius: 3px;
-  border: 1px solid #003366;
+  clear:both;
+  img{
+    float: left;
+  }
 }
 //Styles for demo
