@@ -1,5 +1,5 @@
 # React Webpack Starter
-
+![alt tag](https://raw.githubusercontent.com/htmelvis/react-webpack-starter/master/public/assets/images/reactjs.png)
 A Simple jump off template for creating components with ReactJS and Webpack Dev Server.
 
 ###Jump Off Includes:
