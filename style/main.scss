@@ -1,20 +1,34 @@
+//Base file for main color schemes and grid
 @import "modules/global";
 
-//Styles only for demo
+//Throw Away Style===============//==========
 h2 {
   text-align: center;
+  margin-bottom: 0;
 }
 .explain{
   padding: 34px 0;
   font-size: 1.2em;
-
 }
-.logos{
-  width: 425px;
-  margin: 0 auto;
+.logos {
+    width: 425px;
+    margin: 4em auto;
+    clear: both;
+}
+h1{
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
   clear:both;
-  img{
-    float: left;
-  }
 }
-//Styles for demo
+body{
+  background: rgba(255, 250, 247, 0);
+  color: #293a88;
+}
+p{
+  text-align:center;
+  font-family: 'Open Sans';
+  font-size: 2em;
+  color: #293a88;
+}
+//Throw Away Style==================//====

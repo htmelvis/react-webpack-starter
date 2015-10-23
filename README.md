@@ -21,3 +21,6 @@ A Simple jump off template for creating components with ReactJS and Webpack Dev 
 - Navigate  to ```http://127.0.0.1:8080/webpack-dev-server/```
 
 *Your changes in Sass, and JS will be hot loaded into the browser.
+
+To Do: Watch the View template and fire refresh
+
